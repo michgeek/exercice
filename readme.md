@@ -21,6 +21,7 @@ Change the `DB_DATABASE=/absolute/path/to/db.sqlite`
 ## Serve locally
 
 ```bash
+php artisan migrate
 php artisan serve
 ```
 
