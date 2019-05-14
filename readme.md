@@ -31,3 +31,16 @@ Visit http://localhost:8000
 ```bash
 ./vendor/bin/phpunit
 ```
+
+## Available JSON API endpoints
+
+POST /storeProduct
+{name, description, price}
+
+GET /listProducts
+[
+{name, description, price},
+{name, description, price},
+{name, description, price},
+...
+]
