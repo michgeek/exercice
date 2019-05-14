@@ -33,7 +33,7 @@ class Kernel extends HttpKernel
             \Illuminate\Session\Middleware\StartSession::class,
             // \Illuminate\Session\Middleware\AuthenticateSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \App\Http\Middleware\VerifyCsrfToken::class,
+            // \App\Http\Middleware\VerifyCsrfToken::class, // This one should not be remove usually... but just in case you wanna checkout the API endpoints manually via the browser
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
 
